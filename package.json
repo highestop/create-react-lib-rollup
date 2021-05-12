@@ -1,12 +1,12 @@
 {
-  "name": "demo-create-lib-vite",
+  "name": "demo-react-lib-vite",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/highestop/demo-create-lib-vite.git"
+    "url": "https://github.com/highestop/demo-react-lib-vite.git"
   },
   "types": "./lib/index.d.ts",
-  "main": "./demo-create-lib-vite.es.js",
+  "main": "./demo-react-lib-vite.es.js",
   "scripts": {
     "build": "rm -rf dist && tsc --project tsconfig.lib.json && vite build --config ./vite.lib.config.ts",
     "postbuild": "mv lib dist/lib && cp package.json dist/ && cp README.md dist/"

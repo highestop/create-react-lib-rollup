@@ -1,8 +1,8 @@
-# demo-create-lib-vite
+# demo-react-lib-vite
 
 ```
 cd .. // your workspace
-git clone git@github.com:highestop/demo-create-lib-vite.git
+git clone git@github.com:highestop/demo-react-lib-vite.git
 yarn install
 ...
 yarn build
